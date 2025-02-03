@@ -16,12 +16,12 @@ class AppTheme {
       iconTheme: IconThemeData(color: whiteColor),
     ),
     buttonTheme: const ButtonThemeData(
-      buttonColor: accentColor,
+      buttonColor: Color.fromRGBO(83, 177, 117, 1),
       textTheme: ButtonTextTheme.primary,
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-            backgroundColor: accentColor,
+            backgroundColor: const Color.fromRGBO(83, 177, 117, 1),
             foregroundColor: Colors.blueGrey,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(8.0),

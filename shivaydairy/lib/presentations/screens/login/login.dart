@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:shivaydairy/otppage.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -99,12 +100,16 @@ class _Login extends State {
                   ),
                   const SizedBox(height: 20),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context)
+                          .push(MaterialPageRoute(builder: (context) {
+                        return const Otppage();
+                      }));
+                    },
                     style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color.fromARGB(193, 58, 202, 30),
                         shape: const RoundedRectangleBorder(
-                          borderRadius: BorderRadius.zero,
-                        )),
+                      borderRadius: BorderRadius.zero,
+                    )),
                     child: const Text(
                       'Next',
                       style: TextStyle(

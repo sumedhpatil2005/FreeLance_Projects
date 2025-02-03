@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shivaydairy/home.dart';
 
 class Otppage extends StatefulWidget {
   const Otppage({super.key});
@@ -104,12 +105,16 @@ class _Otppage extends State {
                   ),
                   const SizedBox(height: 30),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context)
+                          .push(MaterialPageRoute(builder: (context) {
+                        return const Home();
+                      }));
+                    },
                     style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color.fromARGB(193, 58, 202, 30),
                         shape: const RoundedRectangleBorder(
-                          borderRadius: BorderRadius.zero,
-                        )),
+                      borderRadius: BorderRadius.zero,
+                    )),
                     child: const Text(
                       "Verify OTP",
                       style: TextStyle(
