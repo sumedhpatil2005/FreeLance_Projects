@@ -22,7 +22,7 @@ List<CartItem> Products = [
     id: '1',
     price: 37,
     quantity: 1,
-    imageUrl: "assets/allassets/amulmilk.jpg",
+    imageUrl: "assets/allassets/product_images/amulmilk.jpg",
     weight: '500ml',
   ),
   CartItem(
@@ -31,14 +31,14 @@ List<CartItem> Products = [
     price: 600,
     quantity: 1,
     weight: '500ml',
-    imageUrl: "assets/allassets/amulghee.jpg",
+    imageUrl: "assets/allassets/product_images/amulghee.jpg",
   ),
   CartItem(
     name: 'Panner',
     id: '1',
     price: 120,
     quantity: 1,
-    imageUrl: "assets/allassets/amulpaneer.jpg",
+    imageUrl: "assets/allassets/product_images/amulpaneer.jpg",
     weight: '100grams',
   ),
   CartItem(
@@ -47,7 +47,7 @@ List<CartItem> Products = [
     price: 100,
     quantity: 1,
     weight: '500g',
-    imageUrl: "assets/allassets/chocolate.jpg",
+    imageUrl: "assets/allassets/product_images/chocolate.jpg",
   ),
 ];
 int index = 1;

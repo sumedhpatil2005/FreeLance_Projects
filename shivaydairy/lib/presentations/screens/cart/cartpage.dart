@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shivaydairy/cartprovider.dart';
-import 'home.dart';
+import 'package:shivaydairy/presentations/screens/cart/cartprovider.dart';
 
 class Cartpage extends StatefulWidget {
   const Cartpage({super.key});
