@@ -28,8 +28,8 @@ class AppTheme {
             ))),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       backgroundColor: background,
-      selectedItemColor: whiteColor,
-      unselectedItemColor: Colors.white12,
+      selectedItemColor: Color.fromRGBO(83, 177, 117, 1),
+      unselectedItemColor: Colors.black,
     ),
     textTheme: const TextTheme(
       bodyLarge: TextStyle(color: Colors.white),

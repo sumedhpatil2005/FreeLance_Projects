@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:shivaydairy/otppage.dart';
+import 'package:shivaydairy/presentations/screens/login/otppage.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -16,10 +16,10 @@ class _Login extends State {
   final List<String> _images = [
     //'assets/allassets/loginimage1.jpg',
 
-    'assets/allassets/loginimage3.jpg',
-    'assets/allassets/loginimage4.jpg',
-    'assets/allassets/loginimage7.jpg',
-    'assets/allassets/loginimage6.jpg',
+    'assets/allassets/loginpage_images/loginimage3.jpg',
+    'assets/allassets/loginpage_images/loginimage4.jpg',
+    'assets/allassets/loginpage_images/loginimage7.jpg',
+    'assets/allassets/loginpage_images/loginimage6.jpg',
   ];
   @override
   void initState() {

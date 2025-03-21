@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shivaydairy/app_theme.dart';
-import 'package:shivaydairy/cartpage.dart';
-import 'package:shivaydairy/cartprovider.dart';
-import 'package:shivaydairy/details.dart';
-import 'package:shivaydairy/home.dart';
-import 'package:shivaydairy/login.dart';
-import 'package:shivaydairy/otppage.dart';
+import 'package:shivaydairy/core/theme/app_theme.dart';
+import 'package:shivaydairy/presentations/screens/cart/cartprovider.dart';
+import 'package:shivaydairy/presentations/screens/login/login.dart';
+
 
 void main() {
   runApp(ChangeNotifierProvider(
-      create: (context) => CartProvider(), child: MainApp()));
+      create: (context) => CartProvider(), child: const MainApp()));
 }
 
 class MainApp extends StatelessWidget {
@@ -20,7 +17,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: Login(),
+      home: const Login(),
     );
   }
 }

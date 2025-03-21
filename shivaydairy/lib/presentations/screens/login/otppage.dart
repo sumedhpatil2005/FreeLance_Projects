@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shivaydairy/home.dart';
+import 'package:shivaydairy/presentations/screens/home/home.dart';
 
 class Otppage extends StatefulWidget {
   const Otppage({super.key});
@@ -10,7 +10,7 @@ class Otppage extends StatefulWidget {
 class _Otppage extends State {
   final otplength = 4;
   final List<String> _images = [
-    'assets/allassets/otpimage2.jpg',
+    'assets/allassets/otppage_images/otpimage2.jpg',
   ];
 
   @override

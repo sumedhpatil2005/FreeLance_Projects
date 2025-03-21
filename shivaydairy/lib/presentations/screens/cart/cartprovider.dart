@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shivaydairy/modalclass.dart';
+import 'package:shivaydairy/data/models/modalclass.dart';
+
 
 class CartProvider extends ChangeNotifier {
   final Map<String, CartItem> _items = {};
